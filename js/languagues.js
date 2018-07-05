@@ -27,9 +27,9 @@ app.config(["$translateProvider", function($translateProvider){
   var sp_translations = {
     "presentation" : "Desarrollador Front-end y administracion de seguridad web",
     "introduction" : "Oye, Yo soy un Desarrollador web Front-end de Mexico ,yo te puedo ayudar a cotruir el"+
-    "siguiente que necesitas tambine tu deberias saber que yo diseno y creo codigo hermoso,limpio y simple para tu negocio.",
+    "siguiente que necesitas tambien tu deberias saber que yo diseno y creo codigo hermoso,limpio y simple para tu negocio.",
     "about" : "Soy un desarrollador hace casi 2 años, he trabajado de forma remota para agencias, consulté para startups y colaboré con personas talentosas para crear productos digitales tanto para empresas como para consumidores. Estoy tranquilamente seguro, curioso por naturaleza, y mejorando constantemente mis habilidades, además no soy un desarrollador tímido. Me encanta crear nuevas ideas como bibliotecas JS, estilo CSS3 cool, programa de red en c y Python y crear bases interesadas para Linux, me encanta la programación. y espero que les guste mi forma de trabajar y también mi trabajo y proyectos.",
-     "title_about"  : "Hola, soy Gilberto. Encantada de conocerte.",
+     "title_about"  : "Hola, soy Gilberto. Encantado de conocerte.",
      "english" : "Ingles",
      "contact" : "contactame",
      "more" : "Más",
