@@ -17,7 +17,7 @@ app.config(["$translateProvider", function($translateProvider){
     "networksocial" : "Follow me on",
     "recente_work" : "My Recent Work",
     "practices_good" : "I am passionate about programming since I was a child and I have a career in computer technology. I am also always taking courses, I am up to date on the latest technologies and I follow the best practices in programming.",
-    "total_dedication" : "total dedication",
+    "total_dedication" : "dedication total",
     "cheap_rates" : "cheap rates",
     "cheap_rates_info" : "My rates are cheap, I try to give the best service at the best possible price since I love the work I do and my goal is to help others with it. Do not hesitate to contact me and ask for a budget for your project.",
     "info_about_my_work" : "Here are a few recent design projects. Want to see more? Email me."
@@ -36,7 +36,7 @@ app.config(["$translateProvider", function($translateProvider){
      "networksocial" : "Sigueme",
      "recente_work" : "Mis recientes trabajos",
      "practices_good" : "Soy un apasionado de la programación desde pequeño y tengo la carrera de ingeniería técnica en informática. Además siempre estoy realizando cursos, estoy al día en las últimas tecnologías y sigo las mejores practicas en programación.",
-      "total dedication"  : "dedicación total",
+      "total_dedication"  : "total dedicación",
       "cheap_rates" : "tarifas económicas",
       "cheap_rates_info" : "Mis tarifas son económicas, intento dar el mejor servicio al mejor precio posible puesto que me encanta el trabajo que hago y mi meta es poder ayudar a los demás con ello. No dudes en ponerte en contacto conmigo y pedir presupuesto para tu proyecto.",
       "info_about_my_work" : "Aquí hay algunos proyectos de diseño recientes. ¿Quieres ver más? Envíeme un correo electrónico."
@@ -46,28 +46,6 @@ app.config(["$translateProvider", function($translateProvider){
 
       }
 
-
-  
-
-
-  /*  
-
-  */
-  $translateProvider.translations('en',en_translations);
-  
-  $translateProvider.translations('sp',sp_translations);
-  
-  $translateProvider.preferredLanguage('en');
-  
-}]);
-
-
-
-app.controller("translateController" ,["$scope","$translate",function($scope,$translate){
-  $scope.changeLanguage = function(lang){
-   $translate.use(lang); 
-  }
-}]);
 
   
 
