@@ -3,7 +3,7 @@ var app = angular.module("myApp",['pascalprecht.translate']);
 app.config(["$translateProvider", function($translateProvider){
   
   var en_translations = {
-    "presentation" : "Developer JavaScript ",
+    "presentation" : "Developer",
     "introduction" : "Hey, I'm a JavaScript developer from Mexico. I can help you build your next product that you need"
     +" product also you should know that I design and  make code beautiful,clean and simple for you company." + 
     "simple things, and I love what I do.",
@@ -25,7 +25,7 @@ app.config(["$translateProvider", function($translateProvider){
   }
   
   var sp_translations = {
-    "presentation" : "Desarrollador JavaScript",
+    "presentation" : "Desarrollador",
     "introduction" : "hey, Yo soy un Desarrollador web JavaScript de Mexico ,yo te puedo ayudar a construir el"+
     " siguiente proyecto que necesitas tambien tu deberias saber que yo diseno y creo codigo hermoso,limpio y simple para tu negocio.",
     "about" : "Soy un desarrollador hace casi 2 años, he trabajado de forma remota para agencias, consulté para startups y colaboré con personas talentosas para crear productos digitales tanto para empresas como para consumidores. Estoy tranquilamente seguro, curioso por naturaleza, y mejorando constantemente mis habilidades, además no soy un desarrollador tímido. Me encanta crear nuevas ideas como bibliotecas JS, estilo CSS3 cool, programa de red en c y Python y crear bases interesadas para Linux, me encanta la programación. y espero que les guste mi forma de trabajar y también mi trabajo y proyectos.",
